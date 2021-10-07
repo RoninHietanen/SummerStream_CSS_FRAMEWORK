@@ -1,6 +1,20 @@
 /* Font Imports */
 @import url('https://fonts.googleapis.com/css2?family=Almarai&family=Architects+Daughter&family=Arvo:ital@1&family=Explora&family=Gemunu+Libre:wght@300&family=Georama:wght@200&family=Indie+Flower&family=Lora:ital@1&family=Montserrat:wght@300&family=Noto+Sans+Display:wght@200&family=Noto+Sans+JP:wght@300&family=Noto+Sans+KR:wght@300&family=Noto+Sans+TC&family=Oswald:wght@200&family=PT+Serif:ital@1&family=Source+Code+Pro:ital,wght@1,300&family=Special+Elite&family=Yaldevi&display=swap');
 
+/* Colors */
+:root {
+    --Pink_Light: rgb(194, 81, 194);
+    --Purple_Light: rgb(130, 81, 194);
+    --Green_Light: rgb(91, 194, 81);
+    --Red_Light: rgb(194, 81, 81);
+    --Orange_Light: rgb(194, 117, 81);
+    --Blue_Light: rgb(81, 149, 194);
+    --Black_Light: rgb(0, 0, 0);
+    --Yellow_Light: rgb(194, 192, 81);
+    --White_Light: rgb(255, 255, 255);
+    --Grey_Light: rgb(124, 124, 124);
+}
+
 /* General Reset */
 * {
     margin: 0;
@@ -12,6 +26,11 @@ body {
     background: white;
     font-size: 1rem;
     line-height: 1.3rem;
+}
+
+hr {
+    height: 1px;
+    background: rgb(151, 151, 151);
 }
 
 /* Fonts */
@@ -52,11 +71,11 @@ body {
     font-family: 'Source Code Pro', monospace;
 }
 
-.Font-Noto-Japanese {
+.Font-Noto-JP {
     font-family: 'Noto Sans JP', sans-serif;
 }
 
-.Font-Noto-Korean {
+.Font-Noto-KR {
     font-family: 'Noto Sans KR', sans-serif;
 }
 
@@ -64,7 +83,7 @@ body {
     font-family: 'Explora', cursive;
 }
 
-.Font-Noto-Trad-Chinese {
+.Font-Noto-TC {
     font-family: 'Noto Sans TC', sans-serif;
 }
 
@@ -848,4 +867,254 @@ p {
 
 .txt-center {
     text-align: center;
+}
+
+.txt-right {
+    text-align: right;
+}
+
+.txt-justify {
+    text-align: justify;
+}
+
+.txt-end {
+    text-align: end;
+}
+
+.txt-start {
+    text-align: start;
+}
+
+.justify-base {
+    justify-content: baseline;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-end {
+    justify-content: end;
+}
+
+.justify-fl-end {
+    justify-content: flex-end;
+}
+
+.justify-fl-st {
+    justify-content: flex-start;
+}
+
+.justify-left {
+    justify-content: left;
+}
+
+.justify-right {
+    justify-content: right;
+}
+
+.justify-sp-ar {
+    justify-content: space-around;
+}
+
+.justify-sp-bt {
+    justify-content: space-between;
+}
+
+.justify-sp-evenly {
+    justify-content: space-evenly;
+}
+
+.justify-st {
+    justify-content: start;
+}
+
+/* Alerts */
+
+.alert {
+    height: 1rem;
+    margin: 0.5rem 1rem;
+    color: var(--Black_Light);
+    padding: 0.8rem;
+    border-radius: 5px;
+}
+
+.alert-pink {
+    background: var(--Pink_Light);
+}
+
+.alert-purple {
+    background: var(--Purple_Light);
+}
+
+.alert-green {
+    background: var(--Green_Light);
+}
+
+.alert-red {
+    background: var(--Red_Light);
+}
+
+.alert-orange {
+    background: var(--Orange_Light);
+}
+
+.alert-blue {
+    background: var(--Blue_Light);
+}
+
+.alert-black {
+    background: var(--Black_Light);
+    color: var(--White_Light);
+}
+
+.alert-white {
+    background: var(--White_Light);
+}
+
+.alert-grey {
+    background: var(--Grey_Light);
+}
+
+.alert-yellow {
+    background: var(--Yellow_Light)
+}
+
+.alert-cl-btn {
+    float: right;
+    cursor: pointer;
+    border-radius: 50%;
+    background: rgba(128, 128, 128, 0.178);
+    height: 1.1rem;
+    width: 1.1rem;
+    content: 'x';
+}
+
+/* Quotes */
+.quote {
+    background: rgb(206, 199, 199);
+    margin: 1rem;
+    padding: 1rem;
+    border: none;
+}
+
+/* Left-border */
+.quote-pink {
+    border-left: var(--Pink_Light);
+}
+
+.quote-purple {
+    border-left: var(--Purple_Light);
+}
+
+.quote-green {
+    border-left: var(--Green_Light);
+}
+
+.quote-red {
+    border-left: var(--Red_Light);
+}
+
+.quote-orange {
+    border-left: var(--Orange_Light);
+}
+
+.quote-blue {
+    border-left: var(--Blue_Light);
+}
+
+.quote-black {
+    border-left: var(--Black_Light);
+}
+
+.quote-yellow {
+    border-left: var(--Yellow_Light);
+}
+
+.quote-grey {
+    border-left: var(--Grey_Light);
+}
+
+/* Background */
+.quote-bg-pink {
+    background: var(--Pink_Light);
+}
+
+.quote-bg-purple {
+    background: var(--Purple_Light);
+}
+
+.quote-bg-green {
+    background: var(--Green_Light);
+}
+
+.quote-bg-red {
+    background: var(--Red_Light);
+}
+
+.quote-bg-orange {
+    background: var(--Orange_Light);
+}
+
+.quote-bg-blue {
+    background: var(--Blue_Light);
+}
+
+.quote-bg-black {
+    background: var(--Black_Light);
+    color: var(--White_Light);
+}
+
+.quote-bg-yellow {
+    background: var(--Yellow_Light);
+    color: var(--Black_Light);
+}
+
+.quote-bg-white {
+    background: var(--White_Light);
+}
+
+.quote-bg-grey {
+    background: var(--Grey_Light);
+}
+
+/* Entire border */
+.quote-border-pink {
+    border: var(--Pink_Light);
+}
+
+.quote-border-purple {
+    border: var(--Purple_Light);
+}
+
+.quote-border-green {
+    border: var(--Green_Light);
+}
+
+.quote-border-red {
+    border: var(--Red_Light);
+}
+
+.quote-border-orange {
+    border: var(--Orange_Light);
+}
+
+.quote-border-blue {
+    border: var(--Blue_Light);
+}
+
+.quote-border-black {
+    border: var(--Black_Light);
+}
+
+.quote-border-yellow {
+    border: var(--Yellow_Light);
+}
+
+.quote-border-white {
+    border: var(--White_Light);
+}
+
+.quote-border-grey {
+    border: var(--Grey_Light);
 }

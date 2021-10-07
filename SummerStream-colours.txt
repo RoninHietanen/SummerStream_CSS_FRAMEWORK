@@ -1,8 +1,12 @@
 :root {
-    --Header_Primary: rgb(194, 81, 194);
-    --Header_Secondary: rgb(130, 81, 194);
+    --Pink_Light: rgb(194, 81, 194);
+    --Purple_Light: rgb(130, 81, 194);
     --Green_Light: rgb(91, 194, 81);
     --Red_Light: rgb(194, 81, 81);
     --Orange_Light: rgb(194, 117, 81);
-    --Info_Light: rgb(81, 149, 194);
+    --Blue_Light: rgb(81, 149, 194);
+    --Black_Light: rgb(0, 0, 0);
+    --Yellow_Light: rgb(194, 192, 81);
+    --White_Light: rgb(255, 255, 255);
+    --Grey_Light: rgb(136, 136, 136);
 }
