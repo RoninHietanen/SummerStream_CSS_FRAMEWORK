@@ -937,6 +937,7 @@ p {
     color: var(--Black_Light);
     padding: 0.8rem;
     border-radius: 5px;
+    background: rgb(206, 199, 199);
 }
 
 .alert-pink {
@@ -978,6 +979,46 @@ p {
 
 .alert-yellow {
     background: var(--Yellow_Light)
+}
+
+.alert-border-pink {
+    border: var(--Pink_Light)
+}
+
+.alert-border-purple {
+    border: var(--Purple_Light)
+}
+
+.alert-border-green {
+    border: var(--Green_Light)
+}
+
+.alert-border-red {
+    border: var(--Red_Light)
+}
+
+.alert-border-orange {
+    border: var(--Orange_Light)
+}
+
+.alert-border-blue {
+    border: var(--Blue_Light)
+}
+
+.alert-border-black {
+    border: var(--Black_Light)
+}
+
+.alert-border-yellow {
+    border: var(--Yellow_Light)
+}
+
+.alert-border-white {
+    border: var(--White_Light)
+}
+
+.alert-border-grey {
+    border: var(--Grey_Light)
 }
 
 .alert-cl-btn {
