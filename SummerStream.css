@@ -214,7 +214,7 @@ p {
     padding-top: 2.75rem;
 }
 
-.pT-11 {
+.pT-12 {
     padding-top: 3rem;
 }
 
@@ -932,12 +932,15 @@ p {
 /* Alerts */
 
 .alert {
-    height: 1rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
     margin: 0.5rem 1rem;
     color: var(--Black_Light);
     padding: 0.8rem;
     border-radius: 5px;
     background: rgb(206, 199, 199);
+    border: 5px solid;
+    border-color: rgba(255, 255, 255, 0);
 }
 
 .alert-pink {
@@ -982,53 +985,55 @@ p {
 }
 
 .alert-border-pink {
-    border: var(--Pink_Light)
+    border-color: var(--Pink_Light)
 }
 
 .alert-border-purple {
-    border: var(--Purple_Light)
+    border-color: var(--Purple_Light)
 }
 
 .alert-border-green {
-    border: var(--Green_Light)
+    border-color: var(--Green_Light)
 }
 
 .alert-border-red {
-    border: var(--Red_Light)
+    border-color: var(--Red_Light)
 }
 
 .alert-border-orange {
-    border: var(--Orange_Light)
+    border-color: var(--Orange_Light)
 }
 
 .alert-border-blue {
-    border: var(--Blue_Light)
+    border-color: var(--Blue_Light)
 }
 
 .alert-border-black {
-    border: var(--Black_Light)
+    border-color: var(--Black_Light)
 }
 
 .alert-border-yellow {
-    border: var(--Yellow_Light)
+    border-color: var(--Yellow_Light)
 }
 
 .alert-border-white {
-    border: var(--White_Light)
+    border-color: var(--White_Light)
 }
 
 .alert-border-grey {
-    border: var(--Grey_Light)
+    border-color: var(--Grey_Light)
 }
 
 .alert-cl-btn {
     float: right;
     cursor: pointer;
     border-radius: 50%;
-    background: rgba(128, 128, 128, 0.178);
+    background: rgba(128, 128, 128, 0.267);
     height: 1.1rem;
+    line-height: 1.1rem;
     width: 1.1rem;
-    content: 'x';
+    text-align: center;
+    padding: 0.2rem;
 }
 
 /* Quotes */
@@ -1037,43 +1042,48 @@ p {
     margin: 1rem;
     padding: 1rem;
     border: none;
+    border-radius: 5px;
 }
 
 /* Left-border */
 .quote-pink {
-    border-left: var(--Pink_Light);
+    border-left: 5px solid var(--Pink_Light);
 }
 
 .quote-purple {
-    border-left: var(--Purple_Light);
+    border-left: 5px solid var(--Purple_Light);
 }
 
 .quote-green {
-    border-left: var(--Green_Light);
+    border-left: 5px solid var(--Green_Light);
 }
 
 .quote-red {
-    border-left: var(--Red_Light);
+    border-left: 5px solid var(--Red_Light);
 }
 
 .quote-orange {
-    border-left: var(--Orange_Light);
+    border-left: 5px solid var(--Orange_Light);
 }
 
 .quote-blue {
-    border-left: var(--Blue_Light);
+    border-left: 5px solid var(--Blue_Light);
 }
 
 .quote-black {
-    border-left: var(--Black_Light);
+    border-left: 5px solid var(--Black_Light);
+}
+
+.quote-white {
+    border-left: 5px solid var(--White_Light);
 }
 
 .quote-yellow {
-    border-left: var(--Yellow_Light);
+    border-left: 5px solid var(--Yellow_Light);
 }
 
 .quote-grey {
-    border-left: var(--Grey_Light);
+    border-left: 5px solid var(--Grey_Light);
 }
 
 /* Background */
@@ -1121,41 +1131,41 @@ p {
 
 /* Entire border */
 .quote-border-pink {
-    border: var(--Pink_Light);
+    border: 5px solid var(--Pink_Light);
 }
 
 .quote-border-purple {
-    border: var(--Purple_Light);
+    border: 5px solid var(--Purple_Light);
 }
 
 .quote-border-green {
-    border: var(--Green_Light);
+    border: 5px solid var(--Green_Light);
 }
 
 .quote-border-red {
-    border: var(--Red_Light);
+    border: 5px solid var(--Red_Light);
 }
 
 .quote-border-orange {
-    border: var(--Orange_Light);
+    border: 5px solid var(--Orange_Light);
 }
 
 .quote-border-blue {
-    border: var(--Blue_Light);
+    border: 5px solid var(--Blue_Light);
 }
 
 .quote-border-black {
-    border: var(--Black_Light);
+    border: 5px solid var(--Black_Light);
 }
 
 .quote-border-yellow {
-    border: var(--Yellow_Light);
+    border: 5px solid var(--Yellow_Light);
 }
 
 .quote-border-white {
-    border: var(--White_Light);
+    border: 5px solid var(--White_Light);
 }
 
 .quote-border-grey {
-    border: var(--Grey_Light);
+    border: 5px solid var(--Grey_Light);
 }
